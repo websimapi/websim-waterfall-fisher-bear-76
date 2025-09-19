@@ -1,5 +1,3 @@
-
-```
 body {
     margin: 0;
     overflow: hidden;
@@ -424,9 +422,9 @@ button:active {
 #global-scores li { display: flex; align-items: center; gap: 8px; }
 .lb-avatar { width: 24px; height: 24px; border-radius: 50%; object-fit: cover; flex: 0 0 24px; }
 
-.lb-replay { display:inline-flex; align-items:center; justify-content:center; width:28px; height:28px; margin-left:6px; border:1px solid #333; border-radius:6px; background:#1a1a1a; color:#fff; text-decoration:none; }
+.lb-replay { display:inline-flex; align-items:center; justify-content:center; width:22px; height:22px; margin-left:6px; border:1px solid #333; border-radius:6px; background:#1a1a1a; color:#fff; text-decoration:none; }
 .lb-replay:hover { background:#2b6e30; }
-.lb-replay svg { width:16px; height:16px; display: block; }
+.lb-replay svg { width:14px; height:14px; display: block; }
 .lb-replay svg path { fill: currentColor; }
 
 #replay-modal{position:fixed;inset:0;background:rgba(0,0,0,0.85);display:flex;align-items:center;justify-content:center;z-index:1002;pointer-events:all;}

@@ -186,7 +186,7 @@ function bindPagination() {
 function createReplayButton(meta) {
   const btn = document.createElement('button');
   btn.className = 'lb-replay'; btn.type = 'button'; btn.setAttribute('aria-label','Watch replay');
-  btn.innerHTML = '<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M8 5v14l11-7z" fill="currentColor"/></svg>';
+  btn.innerHTML = '<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M8 5v14l11-7z" fill="currentColor" stroke="currentColor" stroke-width="0"/></svg>';
   btn.addEventListener('click', ()=> showReplayModal(meta));
   return btn;
 }
