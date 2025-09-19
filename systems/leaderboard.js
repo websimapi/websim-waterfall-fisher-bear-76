@@ -195,7 +195,6 @@ function bindReplayModal() {
   const closeBtn = document.getElementById('replay-close');
   closeBtn?.addEventListener('click', ()=> hideReplayModal());
   modal?.addEventListener('click', (e)=>{ if(e.target===modal) hideReplayModal(); });
-  window.addEventListener('keydown', (e)=>{ if(e.key==='Escape') hideReplayModal(); });
 }
 function showReplayModal({ src, user, score }) {
   const modal = document.getElementById('replay-modal'); if (!modal) return;
